@@ -1,0 +1,14 @@
+# For eclipse
+.classpath
+.settings/
+
+# For maven built
+bin/
+target/
+
+# For Java
+*.jar
+
+# Temp files
+*.swp
+*.swo

@@ -1,0 +1,9 @@
+box: maven:latest
+build:
+    steps:
+        - xenoterracide/maven:
+          goals: test
+        - script:
+            name: husky-on-yarn
+            code: |
+                mvn package
