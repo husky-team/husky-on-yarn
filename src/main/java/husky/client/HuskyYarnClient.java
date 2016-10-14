@@ -462,7 +462,6 @@ public class HuskyYarnClient {
       try {
         // argument initialization errors
         if (!client.init(args)) {
-          LOG.warning("Error on parsing arguments");
           System.exit(0);
         }
       } catch (Exception e) {
